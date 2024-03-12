@@ -775,6 +775,10 @@
       <Project>{D3BED3E6-74CA-C536-5270-8CBADFBD1C08}</Project>
       <Name>Unity.Mathematics.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="MicahW.PointGrassRenderer.Runtime.csproj">
+      <Project>{67BA34C3-C355-00FE-92AF-C4BADC884458}</Project>
+      <Name>MicahW.PointGrassRenderer.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
       <Project>{990684B3-8F10-8E84-7A2A-B552F5C32FF4}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
@@ -806,6 +810,10 @@
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
       <Project>{C14CD43F-2EAC-CA3D-94ED-092689A6F6AD}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="MicahW.PointGrassRenderer.Editor.csproj">
+      <Project>{A3638DC8-5CA0-1409-3EA3-5EB53260B772}</Project>
+      <Name>MicahW.PointGrassRenderer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
       <Project>{0273D2FD-8351-AF00-50D2-0E1D28CE68C2}</Project>
