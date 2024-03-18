@@ -62,6 +62,8 @@
     <Compile Include="Assets\Player\Scripts\Components\FirstPersonAudio.cs" />
     <Compile Include="Assets\Player\Scripts\Components\GroundCheck.cs" />
     <Compile Include="Assets\Water\Simple Water Shader\Resources\WaterReflection.cs" />
+    <Compile Include="Assets\OccaSoftware\Enflame\Scripts\OscillateLightBrightness.cs" />
+    <Compile Include="Assets\OccaSoftware\Enflame\Scripts\VolumetricFire.cs" />
     <Compile Include="Assets\Water\Simple Water Shader\Info\Scripts\Readme.cs" />
     <Compile Include="Assets\Player\Scripts\Components\Crouch.cs" />
     <Compile Include="Assets\Player\Scripts\FirstPersonMovement.cs" />
