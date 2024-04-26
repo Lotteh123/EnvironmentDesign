@@ -67,7 +67,6 @@
     <Compile Include="Assets\Water\Simple Water Shader\Info\Scripts\Readme.cs" />
     <Compile Include="Assets\Player\Scripts\Components\Crouch.cs" />
     <Compile Include="Assets\Player\Scripts\FirstPersonMovement.cs" />
-    <Compile Include="Assets\Animations\Animations.cs" />
     <Compile Include="Assets\Player\Scripts\FirstPersonLook.cs" />
     <Compile Include="Assets\Player\Scripts\Components\Zoom.cs" />
   </ItemGroup>
