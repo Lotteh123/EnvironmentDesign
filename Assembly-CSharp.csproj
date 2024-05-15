@@ -58,9 +58,16 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.2.21f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\OscillateLightBrightness.cs" />
-    <Compile Include="Assets\Scripts\VolumetricFire.cs" />
-    <Compile Include="Assets\Scripts\WaterReflection.cs" />
+    <Compile Include="Assets\Sort\EnvironmentProps\Packages\Point-Grass-Renderer\Runtime\Demo\Scripts\ObjectOscillator.cs" />
+    <Compile Include="Assets\Sort\EnvironmentProps\Packages\Point-Grass-Renderer\Runtime\Demo\Scripts\FreeCam.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Shaders\Include Files\PG_SimplexNoise.hlsl" />
+    <None Include="Assets\Shaders\Include Files\PG_DisplacementInclude.hlsl" />
+    <None Include="Assets\Shaders\Include Files\PG_AlignedVectorMatrix.hlsl" />
+    <None Include="Assets\Shaders\Include Files\PG_MeshBuilding.hlsl" />
+    <None Include="Assets\Shaders\Include Files\PG_RetrieveProceduralData.hlsl" />
+    <None Include="Assets\Shaders\Include Files\PG_ProceduralInclude.hlsl" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -735,10 +742,6 @@
       <Project>{3584A115-681B-72C7-916F-B3CFF2E8160C}</Project>
       <Name>Unity.VisualScripting.Shared.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="MicahW.PointGrassRenderer.Runtime.csproj">
-      <Project>{67BA34C3-C355-00FE-92AF-C4BADC884458}</Project>
-      <Name>MicahW.PointGrassRenderer.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
       <Project>{FC8B1958-7CEB-2BF8-AE8A-0039AAB49913}</Project>
       <Name>Unity.ShaderGraph.Editor</Name>
@@ -786,6 +789,10 @@
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
       <Project>{990684B3-8F10-8E84-7A2A-B552F5C32FF4}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="MicahW.PointGrassRenderer.Runtime.csproj">
+      <Project>{67BA34C3-C355-00FE-92AF-C4BADC884458}</Project>
+      <Name>MicahW.PointGrassRenderer.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{20D98C44-1E6D-52A4-BE0B-E4469FC831C8}</Project>
@@ -858,10 +865,6 @@
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
       <Project>{096EE020-907A-B874-72FA-5C89B375C087}</Project>
       <Name>Unity.RenderPipelines.Universal.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="MicahW.PointGrassRenderer.Editor.csproj">
-      <Project>{A3638DC8-5CA0-1409-3EA3-5EB53260B772}</Project>
-      <Name>MicahW.PointGrassRenderer.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

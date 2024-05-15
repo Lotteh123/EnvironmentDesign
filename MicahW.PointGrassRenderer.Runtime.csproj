@@ -58,22 +58,24 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.2.21f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Sort\EnvironmentProps\Packages\Point-Grass-Renderer\Runtime\Scripts\Effects\PointGrassWind.cs" />
-    <Compile Include="Assets\Sort\EnvironmentProps\Packages\Point-Grass-Renderer\Runtime\Scripts\Common\DistributePointsAlongMesh.cs" />
-    <Compile Include="Assets\Sort\EnvironmentProps\Packages\Point-Grass-Renderer\Runtime\Scripts\Effects\PointGrassDisplacementManager.cs" />
-    <Compile Include="Assets\Sort\EnvironmentProps\Packages\Point-Grass-Renderer\Runtime\Scripts\PointGrassRenderer.cs" />
-    <Compile Include="Assets\Sort\EnvironmentProps\Packages\Point-Grass-Renderer\Runtime\Scripts\Common\SingleLayer.cs" />
-    <Compile Include="Assets\Sort\EnvironmentProps\Packages\Point-Grass-Renderer\Runtime\Scripts\Common\PointGrassCommon.cs" />
-    <Compile Include="Assets\Sort\EnvironmentProps\Packages\Point-Grass-Renderer\Runtime\Scripts\Effects\PointGrassDisplacer.cs" />
+    <Compile Include="Assets\Scripts\DistributePointsAlongMesh.cs" />
+    <Compile Include="Assets\Scripts\PointGrassDisplacer.cs" />
+    <Compile Include="Assets\Scripts\PointGrassShaderEditorGUI.cs" />
+    <Compile Include="Assets\Scripts\PointGrassCommon.cs" />
+    <Compile Include="Assets\Scripts\PointGrassDisplacementManager.cs" />
+    <Compile Include="Assets\Scripts\PointGrassRendererEditor.cs" />
+    <Compile Include="Assets\Scripts\SingleLayer.cs" />
+    <Compile Include="Assets\Scripts\OscillateLightBrightness.cs" />
+    <Compile Include="Assets\Scripts\PointGrassRenderer.cs" />
+    <Compile Include="Assets\Scripts\PointGrassWind.cs" />
+    <Compile Include="Assets\Scripts\VolumetricFire.cs" />
+    <Compile Include="Assets\Scripts\SingleLayerPropertyDrawer.cs" />
+    <Compile Include="Assets\Scripts\WaterReflection.cs" />
+    <Compile Include="Assets\Scripts\FreeCam.cs" />
+    <Compile Include="Assets\Scripts\ObjectOscillator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Sort\EnvironmentProps\Packages\Point-Grass-Renderer\Runtime\Shaders\Include Files\PG_SimplexNoise.hlsl" />
-    <None Include="Assets\Sort\EnvironmentProps\Packages\Point-Grass-Renderer\Runtime\Shaders\Include Files\PG_DisplacementInclude.hlsl" />
-    <None Include="Assets\Sort\EnvironmentProps\Packages\Point-Grass-Renderer\Runtime\Shaders\Include Files\PG_AlignedVectorMatrix.hlsl" />
-    <None Include="Assets\Sort\EnvironmentProps\Packages\Point-Grass-Renderer\Runtime\MicahW.PointGrassRenderer.Runtime.asmdef" />
-    <None Include="Assets\Sort\EnvironmentProps\Packages\Point-Grass-Renderer\Runtime\Shaders\Include Files\PG_MeshBuilding.hlsl" />
-    <None Include="Assets\Sort\EnvironmentProps\Packages\Point-Grass-Renderer\Runtime\Shaders\Include Files\PG_RetrieveProceduralData.hlsl" />
-    <None Include="Assets\Sort\EnvironmentProps\Packages\Point-Grass-Renderer\Runtime\Shaders\Include Files\PG_ProceduralInclude.hlsl" />
+    <None Include="Assets\Scripts\MicahW.PointGrassRenderer.Runtime.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
