@@ -897,13 +897,13 @@
       <Project>{3584A115-681B-72C7-916F-B3CFF2E8160C}</Project>
       <Name>Unity.VisualScripting.Shared.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{FC8B1958-7CEB-2BF8-AE8A-0039AAB49913}</Project>
-      <Name>Unity.ShaderGraph.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="MicahW.PointGrassRenderer.Runtime.csproj">
       <Project>{67BA34C3-C355-00FE-92AF-C4BADC884458}</Project>
       <Name>MicahW.PointGrassRenderer.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
+      <Project>{FC8B1958-7CEB-2BF8-AE8A-0039AAB49913}</Project>
+      <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
       <Project>{D223D48F-5FE2-2BF0-C4E8-70C5B0B309B3}</Project>

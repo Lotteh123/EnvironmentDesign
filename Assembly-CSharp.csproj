@@ -58,20 +58,9 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.2.21f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Sort\Player\Scripts\FirstPersonMovement.cs" />
-    <Compile Include="Assets\Sort\Player\Scripts\Components\Crouch.cs" />
     <Compile Include="Assets\Scripts\OscillateLightBrightness.cs" />
-    <Compile Include="Assets\Sort\Player\Scripts\Components\GroundCheck.cs" />
     <Compile Include="Assets\Scripts\VolumetricFire.cs" />
-    <Compile Include="Assets\Sort\Player\Scripts\Components\FirstPersonAudio.cs" />
-    <Compile Include="Assets\Sort\Player\Scripts\Components\Zoom.cs" />
-    <Compile Include="Assets\Sort\Water\Simple Water Shader\Resources\WaterReflection.cs" />
-    <Compile Include="Assets\Sort\Player\Scripts\FirstPersonLook.cs" />
-    <Compile Include="Assets\Sort\Water\Simple Water Shader\Info\Scripts\Readme.cs" />
-    <Compile Include="Assets\Sort\Player\Scripts\Components\Jump.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Sort\Skybox\ReadMe.txt" />
+    <Compile Include="Assets\Scripts\WaterReflection.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -746,13 +735,13 @@
       <Project>{3584A115-681B-72C7-916F-B3CFF2E8160C}</Project>
       <Name>Unity.VisualScripting.Shared.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{FC8B1958-7CEB-2BF8-AE8A-0039AAB49913}</Project>
-      <Name>Unity.ShaderGraph.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="MicahW.PointGrassRenderer.Runtime.csproj">
       <Project>{67BA34C3-C355-00FE-92AF-C4BADC884458}</Project>
       <Name>MicahW.PointGrassRenderer.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
+      <Project>{FC8B1958-7CEB-2BF8-AE8A-0039AAB49913}</Project>
+      <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
       <Project>{D223D48F-5FE2-2BF0-C4E8-70C5B0B309B3}</Project>

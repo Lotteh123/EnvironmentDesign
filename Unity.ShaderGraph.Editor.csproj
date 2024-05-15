@@ -64,8 +64,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Drawing\ViewModels\ShaderInputViewModel.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Data\ContextData.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Generation\Enumerations\BlendOp.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Data\Graphs\GraphDataReadOnly.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Drawing\Controllers\ShaderInputViewController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Data\Graphs\GraphDataReadOnly.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Data\Interfaces\IMayRequireVertexID.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Data\Nodes\FormerNameAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Drawing\Views\Slots\GradientSlotControlView.cs" />
@@ -248,8 +248,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Data\Graphs\SamplerStateShaderProperty.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Generation\Processors\PropertyCollector.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Data\Graphs\BitangentMaterialSlot.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Generation\Processors\ActiveFields.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Data\Graphs\Vector2MaterialSlot.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Generation\Processors\ActiveFields.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Generation\Collections\KeywordCollection.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Data\Interfaces\GenerationMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.7\Editor\Data\Graphs\Texture2DArrayMaterialSlot.cs" />
